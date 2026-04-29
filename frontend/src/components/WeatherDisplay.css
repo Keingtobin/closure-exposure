@@ -1,0 +1,92 @@
+.weather-display {
+  font-family: monospace;
+  font-size: 13px;
+  color: #1e293b;
+  display: flex;
+  flex-direction: column;
+  padding: 14px 16px;
+  gap: 10px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.wd-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wd-station-name {
+  font-size: 15px;
+  font-weight: bold;
+  color: #1e293b;
+}
+
+.wd-temp-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f1f5f9;
+  border-radius: 6px;
+  padding: 8px 12px;
+}
+
+.wd-temp-label {
+  font-size: 12px;
+  color: #64748b;
+}
+
+.wd-temp-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.wd-temp-value {
+  font-size: 18px;
+  font-weight: bold;
+  color: #2563eb;
+}
+
+.wd-temp-divider {
+  font-size: 14px;
+  color: #94a3b8;
+}
+
+.wd-snow-diff {
+  font-size: 13px;
+  font-weight: bold;
+  color: #64748b;
+}
+
+.wd-chart-date {
+  font-size: 11px;
+  color: #94a3b8;
+  margin-bottom: 2px;
+}
+
+.wd-chart-section {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.wd-chart-label {
+  font-size: 11px;
+  color: #64748b;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.wd-loading {
+  font-size: 12px;
+  color: #94a3b8;
+  font-style: italic;
+  margin: 0;
+}
+
+.wd-no-data {
+  font-size: 12px;
+  color: #94a3b8;
+  font-style: italic;
+  margin: 0;
+}
